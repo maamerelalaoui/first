@@ -39,7 +39,7 @@ export default function Footer() {
                     </div>
 
                     {/* Center Section - Navigation Links */}
-                    <div className="flex justify-between w-full sm:w-1/2 md:w-1/3 gap-10">
+                    <div className="flex justify-around w-full sm:w-1/2 md:w-1/3 gap-10">
                         <div>
                             <h6 className="relative font-semibold mb-4 pb-2 text-lg text-white
                                 before:absolute before:bottom-0 before:left-0 before:w-4 before:h-[3px] before:bg-gray-500 
@@ -77,7 +77,7 @@ export default function Footer() {
                     </div>
 
                     {/* Right Section - Newsletter */}
-                    <div className="w-full sm:w-1/2 md:w-1/3 text-center md:text-left">
+                    <div className=" w-full sm:w-1/2 md:w-1/3 text-center md:text-left">
                         <h6 className="relative font-semibold mb-4 pb-2 text-lg
                             before:absolute text-white before:bottom-0 before:left-0 before:w-4 before:h-[3px] before:bg-gray-500 
                             after:absolute after:bottom-0 after:left-[30px] after:w-10 after:h-[3px] after:bg-white">

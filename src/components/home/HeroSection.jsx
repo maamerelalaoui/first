@@ -62,7 +62,7 @@ const Banner = () => {
     return (
         <section className="banner-section relative mt-5 pt-[120px] bg-cover bg-center bg-no-repeat "
         style={{
-            backgroundImage: "url('/blotches.avif')",  // Set the background image
+            backgroundImage: "url('/blotches.avif')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             zIndex:10
@@ -71,15 +71,14 @@ const Banner = () => {
     <div className="absolute inset-0 bg-white/80 backdrop-blur-xl" style={{zIndex:-100}}></div>
             <div className="">
             
-
                 <div className="flex w-full justify-center  relative">
-                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 xl:gap-0 justify-between items-center max-w-7xl ">
-                            <div className=" w-full pl-10 lg:text-left  text-center relative mb-[120px]">
-                                <h6 className="text-lg text-blue-600 font-bold">{subTitle}</h6>
-                                <p className="text-7xl font-bold">{title}</p>
-                                <p className="text-xl mx-10 lg:mx-0">{desc}</p>
+                    <div className="lg:grid lg:grid-cols-2 flex flex-col-reverse  grid-cols-1 gap-10 xl:gap-0  lg:justify-between lg:items-center max-w-7xl ">
 
-                                <div className='flex mt-16 xl:mt-16 lg:mt-6 justify-center w-full lg:justify-start absolute' style={{ zIndex: 200 }}>
+                            <div className=" w-full  lg:pl-10 lg:text-left  text-center relative mb-[200px] lg:mb-[120px]">
+                                <h6 className="text-lg text-blue-600 font-bold">{subTitle}</h6>
+                                <p className="text-7xl pl-4 lg:pl-0 font-bold">{title}</p>
+                                <p className="text-xl mx-10 lg:mx-0">{desc}</p>
+                            <div className='flex mt-16  xl:mt-16 lg:mt-6 justify-center w-full lg:justify-start absolute' style={{ zIndex: 200 }}>
                       <Link to="/sign-in" className="font-semibold text-lg flex items-center gap-2 group " >
                         <div className="relative px-7 py-3 flex items-center duration-500 rounded-md bg-blue-600 justify-center overflow-hidden">
     
@@ -91,9 +90,9 @@ const Banner = () => {
                         </Link></div>
                         <motion.img
       src="/e-5.webp"
-      className="absolute left-[310px] sm:left-[400px] md:left-[520px] lg:hidden xl:block xl:left-[160px] -bottom-14"
+      className="absolute left-[310px] sm:left-[400px] md:left-[480px] lg:hidden xl:block xl:left-[160px] -bottom-14"
       initial={{ y: 0 }}
-      animate={{ y: [-15, 0, -15] }} // Creates a jumping effect
+      animate={{ y: [-15, 0, -15] }} 
       transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
     />                        </div>
                         <div className="banner-thumb flex xl:justify-start justify-center">

@@ -64,7 +64,7 @@ const CourseCard = () => {
 
     return (
         
-        <div id="courses" className="flex justify-center w-full pt-[200px] pb-[200px] overflow-hidden bg-cover bg-bottom bg-no-repeat relative"
+        <div id="courses" className="flex justify-center w-full py-[90px] md:py-[200px] overflow-hidden bg-cover bg-bottom bg-no-repeat relative"
         style={{
             backgroundImage: "url('/2085.jpg')",  
             backgroundSize: "cover",

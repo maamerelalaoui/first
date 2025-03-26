@@ -13,15 +13,15 @@ const HowItWorks = () => {
     
 
     const side2 = {
-        visible: { opacity: 1, y: 0 },
-        hidden: { opacity: 0, y: 80 },
+        visible: { opacity: 1, x: 0 },
+        hidden: { opacity: 0, x: -80 },
     };
 
     
 
     return (
         
-        <div  className="flex justify-center w-full py-[130px] " style={{background:'oklch(0.932 0.032 255.585)'}}>
+        <div  className="flex justify-center w-full py-[80px]  lg:py-[130px] " style={{background:'oklch(0.932 0.032 255.585)'}}>
             <div>
             <div className="text-center mb-10">
                     <h2 className="text-3xl sm:text-4xl font-bold text-blue-600 mb-4">

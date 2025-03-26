@@ -33,7 +33,7 @@ export const ReturnTop = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6  w-10 h-10 flex items-center justify-center bg-blue-600  text-white rounded-full shadow-lg transition-opacity ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+      className={`fixed bottom-6 right-6 p-1  w-10 h-10 flex items-center justify-center bg-blue-600  text-white rounded-full shadow-lg transition-opacity ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
       style={{ transition: "opacity 0.3s ease-in-out",zIndex:1000 }}
     >
       <img src="/arrow.png" alt="" />
@@ -41,15 +41,4 @@ export const ReturnTop = () => {
   );
 };
 
-const MainContent = () => {
-  return (
-    <div className="mt-16 p-4">
-      <h1>Welcome to My SaaS App</h1>
-      <p>Scroll down to see the "Back to Top" button appear!</p>
-      {/* Add more content here to enable scrolling */}
-      <div style={{ height: "1500px" }}>
-        <p>More content...</p>
-      </div>
-    </div>
-  );
-};
+

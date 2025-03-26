@@ -60,8 +60,8 @@ const AboutSection = () => {
     {/*src="/f7bd8c8857905893d42b.jpg"*/}
   return (
    
-      <div id="about" className="about-section w-full py-[120px]  relative overflow-hidden  bg-blue-100 ">
-            <div className="text-center mb-20">
+      <div id="about" className="about-section w-full py-[50px] md:py-[120px]  relative overflow-hidden  bg-blue-100 ">
+            <div className="text-center mb-2 lg:mb-20">
                     <h2 className="text-3xl sm:text-4xl font-bold text-blue-600 mb-4">
                         About us
                     </h2>

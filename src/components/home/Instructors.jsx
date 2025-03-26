@@ -19,7 +19,7 @@ const Instructors = () => {
         hidden: { opacity: 0, x: 80 },
     };
     return (
-        <section id="instractors" className=" py-[120px] bg-blue-100 bg-cover  relative bg-center bg-no-repeat overflow-hidden"
+        <section id="instractors" className="py-[90px] md:py-[120px] bg-blue-100 bg-cover  relative bg-center bg-no-repeat overflow-hidden"
     style={{
         backgroundImage: "url('/blotches.avif')", 
         backgroundSize: "cover",

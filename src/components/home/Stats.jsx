@@ -56,7 +56,7 @@ const Stats = () => {
     return (
         <section 
     id="statsSection"
-    className="py-[100px] px-12 sm:px-[110px] md:px-7 overflow-hidden bg-cover bg-center bg-no-repeat relative"
+    className="py-[100px] px-6 sm:px-[10px] md:px-7 overflow-hidden bg-cover bg-center bg-no-repeat relative"
     style={{
         backgroundImage: "url('/blotches.avif')", 
         backgroundSize: "cover",
@@ -82,15 +82,11 @@ const Stats = () => {
                     transition={{ duration: 0.5 }}
                 >
                     {inView ? (
-                        <motion.span
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            transition={{ duration: 1.5 }}
-                            whileInView={{ opacity: 1, scale: 1.2 }}
+                        <span
                             className="text-4xl font-bold"
                         >
                           +<CountUp start={0} end={parseInt(stat.number)} duration={2} />
-                        </motion.span>
+                        </span>
                     ) : (
                         '0'
                     )}

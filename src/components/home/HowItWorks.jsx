@@ -40,12 +40,12 @@ const HowItWorks = () => {
                     variants={side2}
                     transition={{ duration: 0.8 }}
                 className="flex items-center gap-3 justify-center md:flex-nowrap flex-wrap mx-8  max-w-7xl">
-            <div className="relative bg-white  max-w-sm duration-300 group  rounded-xl p-1 border-gray-300 border-2  hover:bg-gray-100 hover:border-gray-400 shadow-lg hover:shadow-2xl hover:border-gray-950">
+            <div className="relative bg-white  max-w-sm duration-300 group  rounded-xl p-1 border-gray-300 border-2  hover:bg-gray-100 hover:border-gray-400 shadow-lg hover:shadow-2xl  ">
   <div className="relative grid gap-1 pb-8 transform transition-all duration-300 p-7 overflow-hidden">
-    <div className="flex items-center justify-center w-20 h-20 mb-2">
+    <div className="flex items-center justify-center w-20 h-20">
       <img src="/100.png" alt="icon" />
     </div>
-    <p className="text-xl font-bold mb-1">Find Your Course</p>
+    <p className="text-xl font-bold ">Find Your Course</p>
     <p className="text-base">It has survived not only centuries but also leaped into electronic.</p>
     <img src="/shape-8.webp" className="absolute -top-7 left-[260px]" />
   </div>
@@ -53,9 +53,9 @@ const HowItWorks = () => {
 
 <img src="/64.png" className="h-10 hidden md:block" />
 
-<div className="relative bg-white  duration-300 group max-w-sm rounded-xl p-1  border-gray-300 border-2  hover:bg-gray-100 hover:border-gray-400 shadow-lg hover:shadow-2xl hover:border-gray-950">
+<div className="relative bg-white  duration-300 group max-w-sm rounded-xl p-1  border-gray-300 border-2  hover:bg-gray-100 hover:border-gray-400 shadow-lg hover:shadow-2xl ">
   <div className="relative grid gap-1 pb-8 transform transition-all duration-300 p-7 overflow-hidden">
-    <div className="flex items-center justify-center w-14 h-14 mb-2">
+    <div className="flex items-center justify-center w-14 h-14 mb-4">
       <img src="/101.png" alt="icon" />
     </div>
     <p className="text-xl font-bold mb-1">Book A Seat</p>
@@ -66,7 +66,7 @@ const HowItWorks = () => {
 
 <img src="/64.png" className="h-10 hidden md:block" />
 
-<div className="relative duration-300 bg-white  group max-w-sm rounded-xl p-1 border-gray-300 border-2  hover:bg-gray-100 hover:border-gray-400 shadow-lg hover:shadow-2xl hover:border-gray-950">
+<div className="relative duration-300 bg-white  group max-w-sm rounded-xl p-1 border-gray-300 border-2  hover:bg-gray-100 hover:border-gray-400 shadow-lg hover:shadow-2xl ">
   <div className="relative grid gap-1 pb-8 transform transition-all duration-300 p-7 overflow-hidden">
     <div className="flex items-center justify-center w-14 h-14 mb-4">
       <img src="/102.png" alt="icon" />

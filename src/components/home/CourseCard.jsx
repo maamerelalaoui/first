@@ -9,8 +9,6 @@ const CourseCard = () => {
     const aboutRefSideLeft = useRef(null);
     const isInView = useInView(aboutRefSideLeft);
 
-    
-
     const side2 = {
         visible: { opacity: 1, y: 0 },
         hidden: { opacity: 0, y: 80 },
@@ -68,7 +66,7 @@ const CourseCard = () => {
         
         <div id="courses" className="flex justify-center w-full pt-[200px] pb-[200px] overflow-hidden bg-cover bg-bottom bg-no-repeat relative"
         style={{
-            backgroundImage: "url('/2085.jpg')",  // Set the background image
+            backgroundImage: "url('/2085.jpg')",  
             backgroundSize: "cover",
             backgroundPosition: "center"
         }}
@@ -106,7 +104,7 @@ const CourseCard = () => {
             <div 
                 key={course.id}
                 ref={ref}
-                className="relative duration-300 max-w-sm  rounded-3xl border-gray-300 border-2 hover:bg-gray-100  hover:border-gray-400 shadow-lg group hover:shadow-2xl hover:border-gray-950 transition-all bg-white"
+                className="relative duration-300 max-w-sm  rounded-3xl border-gray-300 border-2 hover:bg-gray-100  hover:border-gray-400 shadow-lg group hover:shadow-2xl transition-all bg-white"
                 >
                 <div className="absolute inset-0  opacity-0  transition-all duration-300"></div>
     

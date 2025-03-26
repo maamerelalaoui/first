@@ -146,7 +146,7 @@ const AboutSection = () => {
             <div 
                 key={i}
                 ref={ref}
-                className="relative duration-300 max-w-sm rounded-3xl border-gray-300 border-[1px] hover:bg-gray-100  hover:border-blue-600 shadow-lg group hover:shadow-2xl hover:border-gray-950 bg-white"
+                className="relative duration-300 max-w-sm rounded-3xl border-gray-300 border-[1px] hover:bg-gray-100  hover:border-blue-600 shadow-lg group hover:shadow-2xl  bg-white"
                 >
     
                 <div className="relative grid gap-1 p-5 pb-8 transform transition-all duration-300">

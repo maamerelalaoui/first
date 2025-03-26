@@ -1,82 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
-/*! @@@@@@@@@@@@@@@@@@@@@@
 
-Template Name: Edukon
-Template URI: https://themeforest.net/user/CodexCoder
-Author: CodexCoder
-Author URI: https://themeforest.net/user/CodexCoder
-Description: Description
-Version: 1.0.0
-Text Domain: edukon
-Tags: academy, children, education, institute, kids, kids care, kids care home, kids school, kinder garden, kindergarten, nursery, play school, pre-school, responsive
-
-@@@@@@@@@@@@@@@@@@@@@@ */
-/* @@@@@@@@@@@@@@@@@@@@@@
->>> TABLE OF CONTENTS START:
-
-01. Normalize CSS
-02. Global CSS
-03. Header 
-	* Style-1
-	* Style-2
-	* Style-3
-	* Mobile Menu
-04. Banner 
-	* Style-1
-	* Style-2
-	* Style-3
-05. Page Header
-  	* Style-1
-06. Feature Section
-07. About Section
-	* Style-1
-	* Style-2
-	* Style-3
-08. Category Section
-	* Style-1
-	* Style-2
-	* Style-3
-	* Style-4
-09. course Section
-	* Style-1
-	* Style-2
-	* Style-3
-	* Style-4
-10. Course Single Section
-11. Event Section
-	* Style-1
-	* Style-2
-12. Instructor Section
-13. Testimonial Section
-	* Style-1
-	* Style-2
-	* Style-3
-14. Sponsor Section
-15. Newsletter Section
-16. Counterup Section
-17. Countdown Section
-18. Offer Section
-19. Contact Section
-20. Faq Section
-21. Fore Zero
-22. Blog
-	* Style-1
-	* Style-2
-	* Style-3
-	* Blog Single
-23. Widget
-24. Shop Page
-  * Shop Single
-  * cart Page
-25. Services Page
-26. Service Single Page & etc.
-
-
-
->>> TABLE OF CONTENTS END:
-@@@@@@@@@@@@@@@@@@@@@@ */
-/* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
 .news-letter .section-wrapper, footer.style-2 .footer-bottom .section-wrapper, footer.style-2 .footer-top .footer-item.twitter-post .footer-inner .footer-content .content ul li, .widget.letest-product .widget-wrapper ul li, .widget.widget-tags ul.widget-wrapper, .blog-single .section-wrapper .post-item .post-inner .post-content .tags-section .tags, .blog-single .section-wrapper .post-item .post-inner .post-content .tags-section, .comment-respond .add-comment .comment-form p.comment-form-cookies-consent, .comment-respond .add-comment .comment-form, .comments .comment-list .comment, .navigations-part, .csdc-lists ul li, .course-side-detail .csd-content .sidebar-social .ss-content ul, .course-side-detail .csd-title, .authors, .contact-form, .shop-cart .section-wrapper .cart-bottom .shiping-box .cart-overview ul li, .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .cart-checkout, .shop-cart .section-wrapper .cart-bottom .cart-checkout-box, .shop-cart .section-wrapper .cart-top table tbody tr td.product-item, .shop-single .review .review-content .description .post-item, .shop-single .review .review-content .review-showing .client-review .review-form form .rating ul, .shop-single .review .review-content .review-showing .client-review .review-form form .rating, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta .posted-on, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta, .shop-single .review .review-nav, .shop-single .product-details .post-content form, .shop-page .modal .modal-dialog .modal-content .modal-body .product-details-inner .cart-button, .shop-page .shop-product-wrap .product-list-item, .shop-page .shop-product-wrap .product-item .product-thumb .product-action-link, .shop-page .shop-product-wrap .product-list-item .product-thumb .product-action-link, .app-section .section-wrapper ul, .date li, .date, .workshop-join .workshop-join-form form .input-area, .workshop-join .workshop-join-form form, .instructor-section.style-2 .section-wrapper .count-item .count-inner, .contact-info-section .section-wrapper, .about-section.style-4 .about-item .counter-part .count-item .count-inner, .about-section.style-4 .about-item .about-content .details li p, .about-section.style-4 .about-item .about-content .details li, .about-section.style-4 .about-items, .about-section .about-right .section-wrapper ul li, .course-section.style-3 .section-header .course-filter-group ul, .course-section.style-3 .section-header, .course-section.style-2 .section-header .course-navigations, .category-section.style-4 .section-wrapper .category-item .category-inner .category-content, .banner-section.style-4 .banner-content ul, .banner-section.style-4 .banner-content form, .banner-section .section-wrapper .banner-content form, .menu-search-form form, .menu > ul, .header-wrapper .menu-area, .header-wrapper, .header-top-area .left, .header-top-area, .header-section.style-2 .logo-search-acte, .feature-item .feature-inner, .event-item .event-inner .event-content .event-content-info ul, .event-item .event-inner .event-content, .contact-item, .skill-item .skill-inner, .achieve-item .achieve-inner, .post-item.slider-post .post-inner .post-thumb.post-thumb-slider, .post-item .post-inner .post-footer, .post-item .post-inner .post-content .meta-post ul, .stu-feed-item .stu-feed-inner .stu-feed-top .sft-left, .stu-feed-item .stu-feed-inner .stu-feed-top, .instructor-item.style-2 .instructor-inner, .course-item.style-4 .course-inner .course-thumb .course-category, .course-item.style-3 .course-inner .course-thumb .course-info, .course-item.style-2 .course-inner, .course-item .course-inner .course-content .course-footer, .course-item .course-inner .course-content .course-details, .course-item .course-inner .course-content .course-category, .social-icons, .account-form .form-group .checkgroup, .default-pagination {
   display: flex;
   flex-wrap: wrap;
@@ -2901,6 +2825,13 @@ button {
 @media (min-width: 1700px) {
   .banner-section .all-shapes {
     display: block;
+    right: 7%;
+
+  }
+}
+@media (min-width: 1800px) {
+  .banner-section .all-shapes {
+    display: block;
     right: 10%;
 
   }
@@ -2935,7 +2866,7 @@ button {
 @media (min-width: 1200px) {
   .banner-section .cbs-content-list ul li.shape-1 {
     top: 28%;
-    right: 1%;
+    right: 5%;
   }
 }
 @media (min-width: 1700px) {
@@ -2959,8 +2890,8 @@ button {
 }
 @media (min-width: 1200px) {
   .banner-section .cbs-content-list ul li.shape-2 {
-    top: 31%;
-    right: 17%;
+    top: 81%;
+    right: 0%;
   }
 }
 @media (min-width: 1700px) {
@@ -2989,11 +2920,17 @@ button {
 }
 @media (min-width: 1600px) {
   .banner-section .cbs-content-list ul li.shape-3 {
-    top: 52%;
+    bottom: 50%;
     right: 40%;
   }
 }
 @media (min-width: 1700px) {
+  .banner-section .cbs-content-list ul li.shape-3 {
+    top: 42%;
+    right: 1%;
+  }
+}
+@media (min-width: 1800px) {
   .banner-section .cbs-content-list ul li.shape-3 {
     top: 42%;
     right: 4%;
@@ -3020,6 +2957,12 @@ button {
 @media (min-width: 1700px) {
   .banner-section .cbs-content-list ul li.shape-4 {
     top: 53%;
+    right: 3%;
+  }
+}
+@media (min-width: 1800px) {
+  .banner-section .cbs-content-list ul li.shape-4 {
+    top: 53%;
     right: 5%;
   }
 }
@@ -3036,12 +2979,18 @@ button {
 }
 @media (min-width: 1200px) {
   .banner-section .cbs-content-list ul li.shape-5 {
-    top: 36%;
-    right: 36%;
+    top: 45%;
+    right: 1%;
   }
 }
 
 @media (min-width: 1700px) {
+  .banner-section .cbs-content-list ul li.shape-5 {
+    top: 65%;
+    right: 3%;
+  }
+}
+@media (min-width: 1800px) {
   .banner-section .cbs-content-list ul li.shape-5 {
     top: 65%;
     right: 5%;

@@ -90,7 +90,7 @@ const Banner = () => {
                         </Link></div>
                         <motion.img
       src="/e-5.webp"
-      className="absolute left-[310px] sm:left-[400px] md:left-[480px] lg:hidden xl:block xl:left-[160px] -bottom-14"
+      className="absolute left-[290px] sm:left-[400px] md:left-[480px] lg:hidden xl:block xl:left-[160px] -bottom-14"
       initial={{ y: 0 }}
       animate={{ y: [-15, 0, -15] }} 
       transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}

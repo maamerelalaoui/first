@@ -56,7 +56,7 @@ const Stats = () => {
     return (
         <section 
     id="statsSection"
-    className="py-[100px] px-6 sm:px-[10px] md:px-7 overflow-hidden bg-cover bg-center bg-no-repeat relative"
+    className="py-[100px] px-3 sm:px-[10px] md:px-7 overflow-hidden bg-cover bg-center bg-no-repeat relative"
     style={{
         backgroundImage: "url('/blotches.avif')", 
         backgroundSize: "cover",
@@ -75,22 +75,26 @@ const Stats = () => {
                 key={index}
                 className="flex flex-col items-center space-y-4 border-blue-400 text-white py-6 md:py-8 px-4"
             >
-                <motion.h3
+                <motion.h4
                     className="text-3xl font-bold"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: inView ? 1 : 0 }}
-                    transition={{ duration: 0.5 }}
+                    transition={{ duration: 0.7 }}
                 >
-                    {inView ? (
+                    <div className='hidden sm:block'>{inView ? (
                         <span
-                            className="text-4xl font-bold"
+                            className="text-4xl text-gray-700 font-bold"
                         >
-                          +<CountUp start={0} end={parseInt(stat.number)} duration={2} />
+                          +<CountUp className='text-gray-800' start={0} end={parseInt(stat.number)} duration={2} />
                         </span>
                     ) : (
                         '0'
-                    )}
-                </motion.h3>
+                    )}</div>
+                </motion.h4>
+                <span className='block sm:hidden text-4xl text-gray-700 font-bold'>
+                +<CountUp className='text-gray-800' start={0} end={parseInt(stat.number)} duration={2} />
+                </span>
+
                 <h4 className="text-lg text-gray-700 font-base">{stat.name}</h4>
             </div>
         ))}

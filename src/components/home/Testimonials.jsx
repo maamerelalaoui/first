@@ -67,7 +67,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section id="reviews" className="min-h-[50vh] bg-blue-100 px-10 sm:px-[110px] md:px-7 py-[90px]  md:py-[140px] ">
+    <section id="reviews" className="min-h-[50vh] bg-blue-100 px-7 sm:px-[110px] md:px-7 py-[90px]  md:py-[140px] ">
       <div className="mx-auto h-50 max-w-7xl ">
       <div className="text-center mb-20">
                     <h2 className="text-3xl sm:text-4xl font-bold text-blue-600 mb-4">

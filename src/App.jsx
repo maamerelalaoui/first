@@ -15,6 +15,7 @@ import Contact from './components/about/Contact'
 import { Route, Router, Routes } from 'react-router-dom'
 import { ReturnTop } from './components/home/ReturnTop'
 import HowItWorks from './components/home/HowItWorks'
+import NotFound from './components/home/NotFound';
 
 function App() {
   const [isOnline, setIsOnline] = useState(navigator.onLine);  
@@ -46,17 +47,25 @@ function App() {
     <Testimonials />
 
     <Stats />
-    
+    <Footer/>
     </>} />
-        <Route path="/contact" element={ <>       <HomeNavBar/> 
-          <Contact/></>} />
-        <Route path="/about" element={<>        <HomeNavBar/> <AboutPage/>
+        <Route path="/contact" element={ <><HomeNavBar/> 
+          <Contact/><Footer/></>} />
+        <Route path="/about" element={<><HomeNavBar/> <AboutPage/><Footer/>
           </>} />
-
+          <Route path="*" element={<><NotFound/></>} />
         </Routes>
       
         <ReturnTop/>
-    <Footer/>
+
+        <button
+  onClick={() => window.open('https://api.whatsapp.com/', '_blank')}
+  className="fixed bottom-9 right-5 flex items-center justify-center opacity-100 pointer-events-auto"
+  style={{ transition: "opacity 0.3s ease-in-out", zIndex: 1000 }}
+>
+  <img src="/Whats.webp" className="w-12 h-12" alt="WhatsApp" />
+</button>
+
     </div>:<div className="flex justify-center items-center h-screen">
       <Loader
         className="text-blue-500 animate-spin"

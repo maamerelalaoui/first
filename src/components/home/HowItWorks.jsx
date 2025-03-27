@@ -10,14 +10,10 @@ const HowItWorks = () => {
     const aboutRefSideLeft = useRef(null);
     const isInView = useInView(aboutRefSideLeft);
 
-    
-
     const side2 = {
         visible: { opacity: 1, x: 0 },
         hidden: { opacity: 0, x: -80 },
     };
-
-    
 
     return (
         

@@ -11,7 +11,7 @@ const NotFound = () => {
             <div className='flex flex-col items-center md:items-start gap-5'>
             <h1 className='text-blue-600 text-6xl font-bold'>Eduverse</h1>
             <p className='font-bold text-xl'>404. <span className='font-medium text-lg text-gray-500'>That's an error.</span></p>
-            <div><p className='font-medium text-lg'>The requested URL/404 was not found on this server.</p>
+            <div><p className='font-medium text-lg text-center md:text-start'>The requested URL/404 was not found on this server.</p>
             <p className='font-medium text-md text-gray-500  text-center md:text-start'>That's all we know.</p></div>
             <div className='flex justify-start'>
                       <Link to="/" className="font-semibold text-lg flex items-center gap-2 group/button">

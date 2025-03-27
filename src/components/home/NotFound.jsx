@@ -7,7 +7,7 @@ const NotFound = () => {
   return (
     <div className='w-[100vw] h-[100vh] flex justify-center items-center'>
         <div className='w-2/3 h-1/2 md:h-2/3 shadow-2xl flex  items-center justify-around'>
-        <div className='md:ml-14 ml-6'>
+        <div className='md:ml-14 ml-2'>
             <div className='flex flex-col gap-5'>
             <h1 className='text-blue-600 text-6xl font-bold'>Eduverse</h1>
             <p className='font-bold text-xl'>404. <span className='font-medium text-lg text-gray-500'>That's an error.</span></p>
